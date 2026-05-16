@@ -1,3 +1,4 @@
+//THIS CODE HAS NOT BEEN TESTED YET
 #include <WiFi.h>
 #include <ArduinoJson.h>
 #include <FastLED.h>
