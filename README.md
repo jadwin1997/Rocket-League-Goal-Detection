@@ -1,8 +1,14 @@
+
+
+
+
 # Rocket League Goal-Reactive LED Controller
 
 A real-time Rocket League LED controller that listens for in-game goal events and triggers addressable LED animations based on which team scored.
 
 When a goal is detected, a Python script receives Rocket League match event data, parses the scorer/team information, and sends a JSON command over serial to an Arduino running FastLED. The LED strip then blinks blue or orange depending on the scoring team.
+
+https://github.com/user-attachments/assets/cc2b8d02-0bf7-4529-b24a-058f12febffd
 
 ## Demo Behavior
 
